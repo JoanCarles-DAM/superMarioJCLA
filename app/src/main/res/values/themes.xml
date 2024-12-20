@@ -1,8 +1,15 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.SuperMarioJCLA" parent="Theme.Material3.DayNight">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Color Primario -->
+        <!-- Color primario -->
+        <item name="colorPrimary">@color/primary_color</item>
+        <!-- Color secundario -->
+        <item name="colorSecondary">@color/secondary_color</item>
+        <!-- Fondo -->
+        <item name="android:colorBackground">@color/background_color</item>
+        <!-- Texto -->
+        <item name="android:textColorPrimary">@color/text_color_primary</item>
     </style>
 
     <style name="Theme.SuperMarioJCLA" parent="Base.Theme.SuperMarioJCLA" />

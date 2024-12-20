@@ -3,7 +3,16 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
+    android:background="@color/material_dynamic_neutral90"
     android:gravity="center">
+
+
+    <TextView
+        android:id="@+id/name_character"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mario"
+        style="@style/NombreDetalle" />
 
     <ImageView
         android:id="@+id/icon_character"
@@ -12,28 +21,20 @@
         android:scaleType="centerCrop"
         android:src="@drawable/icon_mario"/>
 
-    <TextView
-        android:id="@+id/name_character"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Mario"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        android:layout_marginTop="8dp" />
+
 
     <TextView
         android:id="@+id/info_character"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Héroe del Reino Champiñón"
-        android:textSize="20dp"
-        />
+        style="@style/DesripcionDetalle"/>
     <TextView
         android:id="@+id/description_character"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Fontanero que actualmente vive en el Reino Champiñón. Como el héroe que es, se encarga de salvar a la gente, especialmente a la Princesa Peach, a quien ha salvado muchísimas veces de las garras del temible Bowser, quien es su archi-enemigo. Es una persona humilde y de buen corazón, que no le importa cuanto tenga que recorrer para salvar a la gente que necesita su ayuda."
-        android:textSize="20dp"
+        style="@style/InformacionDetalle"
         />
 
 a

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Nombre en personaje_detalles.xml -->
+    <style name="NombreDetalle">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/primary_color</item>
+    </style>
+
+    <!-- Pequeña descripción en personaje_detalles.xml -->
+    <style name="DesripcionDetalle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:textColor">@color/secondary_color</item>
+    </style>
+    <!-- Información detallada en personaje_detalles.xml -->
+    <style name="InformacionDetalle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:lineSpacingExtra">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- estilo del fondo de pantalla -->
+    <style name="CharacterDetailsLayoutStyle">
+        <item name="android:background">@color/background_color</item> <!-- Color de fondo -->
+        <item name="android:padding">16dp</item> <!-- Relleno para el layout -->
+        <item name="android:gravity">center</item> <!-- Centrado de contenido -->
+    </style>
+
+</resources>
