@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--English version -->
+<resources>
+    <string name="app_name">Super Mario Characters</string>
+    <string name="select_character">Choose the character</string>
+    <string name="back">Return</string>
+</resources>

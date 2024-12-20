@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Personajes de Super Mario</string>
+    <string name="select_character">Selecciona un personaje</string>
+    <string name="back">Volver</string>
+
+</resources>

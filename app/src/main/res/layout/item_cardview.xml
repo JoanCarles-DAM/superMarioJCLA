@@ -1,0 +1,61 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="personaje"
+            type="lopezalos.joancarles.supermariojcla.Personaje" />
+    </data>
+
+<androidx.cardview.widget.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true"
+    tools:context=".MainActivity">
+
+    <!-- Contenedor para la imagen y el texto -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <!-- Imagen del personaje -->
+        <ImageView
+            android:id="@+id/icon_character"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:src="@drawable/icon_mario"/>
+
+        <!-- Paar poner el nombre y el título en vertical pero AL LADO de la imagen -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <!-- Nombre del personaje -->
+            <TextView
+                android:id="@+id/name_character"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Personaje"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/info_character"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Info rápida"
+                android:textSize="20sp"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+</layout>
